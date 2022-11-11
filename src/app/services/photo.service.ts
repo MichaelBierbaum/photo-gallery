@@ -3,6 +3,7 @@ import { Camera, CameraResultType, CameraSource, Photo } from '@capacitor/camera
 import { Filesystem, Directory } from '@capacitor/filesystem';
 import { Preferences } from '@capacitor/preferences';
 import { Platform } from '@ionic/angular';//is used to retrieve information about the current device
+import { Capacitor } from '@capacitor/core';
 
 export interface UserPhoto {
   filepath: string;
